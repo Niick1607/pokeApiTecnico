@@ -1,0 +1,2 @@
+Apertar na carta para acionar o ataque;
+Esperar o dano dado no oponente e o dano recebido aparecer na tela

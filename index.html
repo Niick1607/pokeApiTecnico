@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>PokemonAPI</title>
+    </head>
+    <body>
+        <main class="battle" style="display: block;">
+            <div class="centralizarDamage">
+                <p class="damage">
+                    
+                </p>
+            </div>
+            <div class="startBtDiv"><button class="startBt" id="startBt">Start</button></div>
+            <section class="poke-cards"></section>
+            <section class="fight">
+                <div class="one-side">
+                    <h4 id="pokeNameMine"></h4>
+                    <img class="mine-image">
+                    <div class="healthBarAdd"></div>
+                </div>
+                <div class="one-side" id="oponent-side">
+                    <h4 id="o-pokeNameMine"></h4>
+                    <img class="o-image" src="">
+                    <p class="oponentHealth"></p>
+                </div>
+            </section>
+        </main>
+        <audio id="audio"><source src="/assets/HWV.mp3" type="audio/mp3"></audio>
+        <main class="win">
+            <div class="centralizarDamage">
+                <button class="restartBt">Restart</button>
+                <p class="winText">Victory</p>
+            </div>
+            
+        </main>
+    </body>
+    <script src="Main.js"></script>
+</html>
